@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Completion</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script/main.js"></script>
+</head>
+<body>
+    <div id="first">
+      <h1>Home Page</h1><br>
+      <button type="button" onclick="newuser()">new user</button><br>
+      <button type="button" onclick="existinguser()">existing user</button>
+    </div>
+    <div id="newuser">
+        <h2> Welcome! New user </h2>
+        <label> UserName : </label><br><input type="text" id="name" )>
+        <label></label><br>
+        <label> UserAge : </label><br><input type="number" id="age" >
+        <label ></label><br>
+        <label> UserMobileNumber : </label><br>
+        <input type="number" id="mnum">
+        <label ></label><br>
+
+        <button onclick="adduser()">ADD</button>
+    </div>
+    <div id="existinguser">
+        <h2>Sign In Page</h2>
+        <label>UserId</label>
+        <input type="text" id="userid">
+        <button type="button" onclick="login()" >log in</button><br>
+        <label id="availableUser"></label>
+    </div>
+    <div id="userhome">
+        <h2>you want to see</h2>
+        <button type="button" onclick="availablecourses()">Available course</button><br>
+      <button type="button" onclick="enrolledclass()">Enrolled class</button><br><br><br>
+    </div>
+    <div id="availablecourses">
+        <input type="checkbox" id="c#" >C# <label for="requireddays"><input type="number"placeholder="no.of.days to complete"></label><br>
+        <input type="checkbox" id="html">HTML<label for="requireddays"><input type="number" placeholder="no.of.days to complete"></label><br>
+        <input type="checkbox" id="css">CSS<label for="requireddays"><input type="number" placeholder="no.of.days to complete"></label><br>
+        <input type="checkbox" id="javascript">JAVASCRIPT<label for="requireddays"><input type="number" placeholder="no.of.days to complete"></label>
+    </div>
+    <div id="enrolledcourse">
+
+    </div>
+    
+</body>
+</html>

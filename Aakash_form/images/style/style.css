@@ -1,0 +1,18 @@
+#first{
+    visibility: visible;
+}
+#newuser{
+    visibility: hidden;
+}
+#existinguser{
+    visibility: hidden;
+}
+#userhome{
+    visibility: hidden;
+}
+#availablecourses{
+    visibility: hidden;
+}
+#enrolledcourse{
+    visibility: hidden;
+}

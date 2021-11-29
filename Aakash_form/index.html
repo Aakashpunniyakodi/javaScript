@@ -1,0 +1,116 @@
+<html>
+
+<head>
+    <title>Form Validation</title>
+    <script src="script/script.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+      <div id="centre">  <h1 id="h1">Submit your Application</h1>
+        <p>for <b>.net Developer (Fresher)</b></p></div>
+    
+    <div id="full">
+        <form onsubmit="return validate()" action="#">
+            <div id="half">
+            <div class="fi">
+                <span>Name as per ID proof</span>
+                <input type="text" id="name" placeholder="Name">
+                <label for="name" id="lname"> invalid Name</label>
+            </div>
+            <div class="fi">
+
+                <span>Father's Name</span>
+                <input type="text" id="fathername" placeholder="Father's Name">
+            </div>
+            <br><br>
+            <div class="fi">
+
+                <span>Email</span>
+                <input type="text" id="email" placeholder="hitman45@mail.com">
+                <label for="email" id="lmail"> Invalid Mail</label>
+            </div>
+            <div class="fi">
+                <div class="se">
+                    <span>Date of Birth</span>
+                    <input type="text" id="dateofbirth" placeholder="DD-MM-YYYY">
+                    <label for="dateofbirth" id="ldob"> Invalid of birth</label>
+                </div>
+                <div class="se">
+
+                    <span>Phone number</span>
+                    <input type="text" id="phone" placeholder="Phone Number">
+                    <label for="phone" id="lphone"> Invalid PhoneNumeber</label>
+                </div>
+            </div>
+            <br>
+            <div class="fi">
+
+                <span>Current Address</span>
+                <input type="text" id="currentAddressLine1" placeholder="Address Line 1">
+            </div>
+            <div class="fi">
+
+                <input type="text" id="currentAddressLine2" placeholder="Address Line 2">
+            </div><br><br>
+            <div class="fi">
+                <div class="sectionpart">
+                    <input type="text" id="currentCity" placeholder="City"><br>
+                </div>
+
+
+                <div class="se">
+                    <select name="state" id="currentState">
+                        <option value="Tamil Nadu">TamilNadu</option>
+                        <option value="Kerla">Kerla</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Andra Pradesh">AndraPradesh</option>
+                    </select><br>
+                </div>
+            </div>
+        
+            <div class="fi">
+                <input type="text" id="currentPinCode" placeholder="PinCode">
+                <label for="currentPinCode" id="lpincode">invalid Pin Code</label>
+
+            </div><br>
+
+            <input type="checkbox" id="checking" onclick="copyAddress()">Same as Current Address
+            <br>
+            <div class="fi">
+
+                <span>Permanant Address </span>
+                <input type="text" id="permanantAddressLine1" placeholder="Address Line 1">
+            </div>
+            <div class="fi">
+                <input type="text" id="permanantAddressLine2" placeholder="Address Line 2">
+            </div><br>
+            <div class="fi">
+                <div class="sectionpart">
+                    <input type="text" id="permanantCity" placeholder="City"><br>
+                </div>
+                <div class="se">
+                    <select name="state" id="permanantState">
+                        <option value="TN">TamilNadu</option>
+                        <option value="KA">Karnataka</option>
+                        <option value="AP">AndraPradesh</option>
+                        <option value="KL">Kerla</option><br>
+                    </select>
+                </div>
+            </div>
+            <div class="fi">
+                <input type="text" id="permanantPinCode" placeholder="PinCode">
+            </div><br>
+
+            <p>Upload Profile Photo (JPG/PNG format only)</p>
+            <p>Please upload aphoto of yourself. Your face should be clearly visible. Makesure the image size does not
+                exceed 500KB.</p> <br><br>
+
+            <input type="file" id="upload" value="UPLOAD PHOTO" accept="Upload photo">
+            <br><br>
+            <input type="submit" id="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>

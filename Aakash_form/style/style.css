@@ -1,0 +1,120 @@
+body{
+    background-image: url(../images/Nature-1080p-HD-Wallpaper-Download.jpg);
+    background-size:cover;
+    color: hsl(51, 100%, 50%);
+    background-repeat: no-repeat;
+    float: left;
+}
+#h1{
+    color: maroon;
+    
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+#centre
+{
+    text-align: center;
+}
+#full{
+    float: left;
+    margin: 0 17%;
+    padding: 2.5rem;
+    border:4px double rgb(203, 8, 241);
+    
+}
+span
+{
+    font-size: 10px;
+    margin-left: 10px;
+}
+select{
+    border-radius: 3px ;
+    border:greenyellow ridge 1px;
+    height: 2rem;
+
+}
+input{
+    border-radius: 3px ;
+    border: greenyellow ridge 1px;
+    height: 2rem;
+}
+br{
+    clear: both;
+}
+label{
+    visibility:hidden;
+    color:red;
+}
+#upload{
+    border: none;
+}
+.fi{
+    float: left;
+    width: 45%;
+    padding-right:2rem;
+}
+
+#name{
+    width: 90%;
+}
+#fathername{
+    width: 90%;
+}
+#email{
+    width: 90%;
+}
+.se{
+    float:left;
+    
+    width: 45%;
+}
+#dateofbirth{
+    width: 95%;
+}
+#phone{
+    width: 95%;
+    margin-left: 10px;
+}
+#currentAddressLine1{
+    width: 90%;
+}
+#currentAddressLine2{
+    width: 90%;
+    position: relative;
+    top: 1rem;
+}
+#currentCity{
+
+    width: 95%;
+}
+#currentState{
+    width: 95%;
+    margin-left: 10px;
+}
+#currentPinCode{
+    width: 90%;
+}
+#checking{
+    position: relative;
+    top: .7rem;
+}
+#permanantAddressLine1{
+    width: 90%;
+}
+#currentAddressLine2{
+    width: 90%;
+    position: relative;
+    top: 1rem;
+}
+#currentCity{
+
+    width: 95%;
+}
+#currentState{
+    width: 95%;
+    margin-left: 10px;
+}
+#currentPinCode{
+    width: 90%;
+}
+
